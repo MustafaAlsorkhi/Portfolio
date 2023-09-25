@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(128, 126, 123);
+    display: flex;
+    flex-direction: column;
+    
+}
+h1{
+    text-align: center;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 95px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+span{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.foo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+margin-top: 358px;
+background-color: black;
+color: aliceblue;
+height: 25px;
+}
+
+@keyframes slideIn {
+    from {
+       transform: translateX(-50%);
+       opacity: 0;
+    }
+    to {
+       transform: translateX(0);
+       opacity: 1;
+    }
+ }
+ .card-hidden {
+    animation: slideIn 2s ease-in-out forwards;          /* تأخير كل كارد بشكل تسلسلي */
+    opacity: 0;
+    transform: translateX(-50%);
+ }
+ .card:nth-child(1) .card-hidden {
+    animation-delay: 0.3s;
+ }
+ 
+ .card:nth-child(2) .card-hidden {
+    animation-delay: 0.8s;
+ }
+ 
+ .card:nth-child(3) .card-hidden {
+    animation-delay: 0.13s;
+ }
+ 
+ .card:nth-child(4) .card-hidden {
+    animation-delay: 0.18s;
+ }
+
+ .card {
+    
+    transition: transform 0.9s ease;       /* المدة لتنفيذ التأثير */
+ }
+ 
+ .card:hover {
+    transform: translateY(-30px);            /* عشان يرتفع الكارد لما احدد بالماوس */   
+ }
+ 
+  .rw{
+   visibility: hidden;
+   animation: animation1 3.5s ease forwards;
+
+  }
+  @keyframes animation1{
+
+   from{
+       transform: translateX(100%);
+   }
+   to 
+   {
+       visibility: visible;
+       transform: translateX(0);
+   }
+}

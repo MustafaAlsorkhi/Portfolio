@@ -1,0 +1,131 @@
+.navbar{
+    background-color: rgb(207, 174, 174);
+    width: auto;
+}
+
+.lead{
+    font-size: 50px;
+    font: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(255, 255, 255);
+    ;
+}
+.btn-secondary{
+    font-size: 18px;
+}
+hr{
+    color: white;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rowe{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 8px;
+}
+.board{
+    background-color: rgb(132, 132, 124);
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    justify-content: center;
+}
+.hh{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.imgg{
+    width: 100px;
+    height: 60px;
+}
+#contact{
+    height: 510px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.rowq{
+    display: flex;
+    flex-direction: row;
+}
+
+#re{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ 
+ .single{
+    text-align: start;
+ }
+ @keyframes slideInRight {
+    from {
+        transform: translateX(-100%); /* بتحرك العنصر وهو مخفي برا الشاشة من اليسار */
+    }
+    to {
+        visibility: visible; 
+        transform: translateX(0); /* وصول العنصر عشان يظهر في المكان المحدد */
+    }
+}
+ .animated-text {
+    visibility: hidden; /* النص بختفي بالبداية */
+    animation: slideInRight 2s ease forwards; 
+    /* 
+    animation-duration: 2s; مدة الزمنية للتأثير
+    animation-fill-mode: forwards;     عشان يضل بحالته النهائية لما يخلص 
+    */
+}
+
+
+
+.animateed-text {
+    visibility: hidden; 
+    animation: slideInleft 3s ease forwards; 
+}
+
+@keyframes slideInleft {
+    from {
+        transform: translateX(100%); 
+    }
+    to {
+        visibility: visible; 
+        transform: translateX(0); 
+    }
+}
+.experience-time{
+    visibility: hidden;
+    animation: animationR 2s ease forwards;
+}
+
+@keyframes animationR{
+
+    from{
+        transform: translateX(100%);
+    }
+    to 
+    {
+        visibility: visible;
+        transform: translateX(0);
+    }
+}
+
+.sochial{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.num{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+.dd{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
