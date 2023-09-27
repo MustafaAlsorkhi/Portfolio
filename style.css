@@ -26,12 +26,12 @@ hr{
     grid-template-columns: auto auto;
     gap: 8px;
 }
-.board{
+.skills{
     background-color: rgb(132, 132, 124);
     display: flex;
     flex-direction: column;
-    height: 170px;
-    justify-content: center;
+    height: 285px;
+    justify-content: space-between;
 }
 .hh{
     display: flex;
@@ -51,6 +51,12 @@ hr{
 .rowq{
     display: flex;
     flex-direction: row;
+}
+
+#contactForm{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }
 
 #re{
@@ -122,7 +128,6 @@ hr{
 .num{
     display: flex;
     flex-direction: column;
-    font-weight: bold;
 }
 .dd{
     display: flex;
