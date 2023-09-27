@@ -16,23 +16,31 @@
 hr{
     color: white;
 }
-.row{
+
+
+.containerr{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
 }
-.rowe{
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 8px;
+
+.roow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
 .skills{
     background-color: rgb(132, 132, 124);
     display: flex;
     flex-direction: column;
-    height: 285px;
+    height: 275px;
     justify-content: space-between;
+    align-items: center;
+    
 }
+
+
 .hh{
     display: flex;
     flex-direction: row;
@@ -41,6 +49,7 @@ hr{
 .imgg{
     width: 100px;
     height: 60px;
+    margin-bottom: 20px; 
 }
 #contact{
     height: 510px;
