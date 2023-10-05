@@ -47,12 +47,13 @@ span {
    justify-content: center;
    align-items: center;
    margin-top: 20px;
-   background-color: black;
-   color: aliceblue;
+   background-color: #7a7a7a;
+      color: aliceblue;
    height: 28px;
    width: 100%;
    text-align: end;
 }
+
 
 @keyframes slideIn {
    from {
@@ -88,7 +89,7 @@ span {
 }
 
 .card {
-   transition: transform 0.9s ease;
+   transition: transform 0.9s ease-out;
 }
 
 .card:hover {
