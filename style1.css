@@ -4,6 +4,10 @@ body {
    flex-direction: column;
    align-items: center;
 }
+.navbar{
+   background-color: rgb(175, 174, 174);
+   width: 100%;
+}
 
 h1 {
    text-align: center;
@@ -41,30 +45,10 @@ span {
    font-size: 17px;
 }
 
-.foo {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-   margin-top: 20px;
-   background-color: #7a7a7a;
-      color: aliceblue;
-   height: 28px;
-   width: 100%;
-   text-align: end;
-}
 
 
-@keyframes slideIn {
-   from {
-       transform: translateX(-50%);
-       opacity: 0;
-   }
-   to {
-       transform: translateX(0);
-       opacity: 1;
-   }
-}
+
+
 
 .card-hidden {
    animation: slideIn 2s ease-in-out forwards;
